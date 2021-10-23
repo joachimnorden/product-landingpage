@@ -28,3 +28,27 @@ h2 {
     font-size: 46px;
     letter-spacing: -0.5px;
 }
+
+header {
+    background: red;
+}
+
+#logo {
+    text-align: center;
+}
+
+#menu {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
+#menu ul {
+    direction: rtl;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
