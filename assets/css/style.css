@@ -20,6 +20,7 @@ h1 {
     font-weight: 300;
     font-size: 73px;
     letter-spacing: -1.5px;
+    line-height: 65px;
 }
 
 h2 {
@@ -51,4 +52,17 @@ header {
     float: left;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#hero {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+}
+
+#hero #content-container-left {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    max-width: 400px;
 }
