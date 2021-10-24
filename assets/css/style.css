@@ -36,6 +36,7 @@ header {
 
 #logo {
     text-align: center;
+    font-size: 50px;
 }
 
 #menu {
@@ -57,29 +58,13 @@ header {
 #hero {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 650px;
+    background: url('../images/product-hero-1800x650px.jpg') no-repeat center center;
 }
 
-#hero #content-container-left {
+#hero #content-container {
     position: absolute;
     top: 20%;
     left: 10%;
-    float: left;
-    width: 50%;
-}
-
-#hero .content {
     max-width: 400px;
-}
-
-#hero #image-container-right {
-    float: right;
-    width: 50%;
-    overflow: hidden;
-}
-
-#hero #image-container-right img {
-    width: auto;
-    height: 100%;
-    object-fit: cover;
 }
