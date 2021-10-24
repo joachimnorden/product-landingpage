@@ -30,8 +30,19 @@ h2 {
     letter-spacing: -0.5px;
 }
 
-header {
+#fixed-menu {
     background: red;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    z-index: 999;
+}
+
+#fixed-menu a {
+    text-decoration: none;
+    color: inherit
 }
 
 #logo {
@@ -40,7 +51,8 @@ header {
 }
 
 #menu {
-    position: fixed;
+    float: right;
+    position: absolute;
     top: 30px;
     right: 30px;
 }
@@ -60,6 +72,7 @@ header {
     width: 100%;
     height: 650px;
     background: url('../images/product-hero-1800x650px.jpg') no-repeat center center;
+    margin-top: 75px;
 }
 
 #hero #content-container {
@@ -67,4 +80,8 @@ header {
     top: 20%;
     left: 10%;
     max-width: 400px;
+}
+
+.features {
+
 }
