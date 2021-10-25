@@ -118,16 +118,24 @@ h2 {
 }
 
 .color-circle {
-    width: 100px;
-    height: 100px;
-    border: 1px #cccccc solid;
+    width: 150px;
+    height: 150px;
+    border: 2px #cccccc solid;
     border-radius: 50%;
 }
 
-.color-circle #black {
+#black {
     background-color: #000;
 }
 
-.color-circle #white {
+#white {
     background-color: #fff;
+}
+
+#gold {
+    background-color: #FFD700;
+}
+
+#blue {
+    background-color: #89CFF0;
 }
