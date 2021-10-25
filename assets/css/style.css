@@ -71,14 +71,15 @@ h2 {
     position: relative;
     width: 100%;
     height: 650px;
-    background: url('../images/product-hero-1800x650px.jpg') no-repeat center center;
+    background: url('../images/product-hero-image-2000x650px.jpg') no-repeat center center;
+    background-size: cover;
     margin-top: 75px;
 }
 
 .text-container {
     position: absolute;
     top: 20%;
-    left: 10%;
+    left: 20%;
     max-width: 400px;
 }
 
