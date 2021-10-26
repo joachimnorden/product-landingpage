@@ -13,6 +13,7 @@ body {
     font-size: 18px;
     letter-spacing: 0.5px;
     color: #111111;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -117,11 +118,31 @@ h2 {
     display: block;
 }
 
+#color-container {
+    background-color: #dcdcdc;
+    padding: 40px;
+}
+
+#color-circle-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+#color-circle-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    text-align: center;
+}
+
 .color-circle {
     width: 150px;
     height: 150px;
     border: 2px #cccccc solid;
     border-radius: 50%;
+    display: inline-block;
 }
 
 #black {
@@ -139,3 +160,17 @@ h2 {
 #blue {
     background-color: #89CFF0;
 }
+
+/* Test script */
+
+.transform {
+    -webkit-transition: all 2s ease;  
+    -moz-transition: all 2s ease;  
+    -o-transition: all 2s ease;  
+    -ms-transition: all 2s ease;  
+    transition: all 2s ease;
+  }
+
+  .transform-active {
+    background-color: #45CEE0;
+  }
