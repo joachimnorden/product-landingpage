@@ -108,6 +108,16 @@ h2 {
     width: 50%;
 }
 
+.features #content-container-right {
+    float: right;
+    width: 50%;
+}
+
+.features #media-container-left {
+    float: left;
+    width: 50%;
+}
+
 .media-container {
     max-width: 100%;
     height: 650px;
@@ -128,6 +138,7 @@ h2 {
 #color-container {
     background-color: #dcdcdc;
     padding: 40px;
+    height: 40vh;
 }
 
 #color-circle-content {
@@ -142,6 +153,7 @@ h2 {
     margin-right: auto;
     max-width: 70%;
     text-align: center;
+    margin-top: 50px;
 }
 
 .color-circle  {
