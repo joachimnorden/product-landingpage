@@ -125,6 +125,8 @@ h2 {
 
 .three-images {
     height: 40vh;
+    width: 100%;
+    overflow: hidden;
 }
 
 .three-images img {
