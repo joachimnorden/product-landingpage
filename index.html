@@ -10,7 +10,7 @@
 </head>
 <body>
   <header>
-    <div id="fixed-menu">
+    <!-- <div id="fixed-menu">
       <a href="index.html">
         <h2 id="logo">The Brand</h2>
       </a>
@@ -22,7 +22,34 @@
               <li><a href="#" class="button">Pre-order</a></li>
           </ul>
       </nav>
+    </div> -->
+
+    <div class="topnav">
+      <a href="#home" class="active">Logo</a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="#features-link">Features</a>
+        <a href="#color-container">Colors</a>
+        <a href="#tech-spec">Technical info</a>
+        <a href="#">Pre-order</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
+    <script>
+      /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+      function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+      x.style.display = "none";
+      } else {
+      x.style.display = "block";
+      }
+    }
+
+    </script>
   </header>
   <section>
     <div id="hero">
