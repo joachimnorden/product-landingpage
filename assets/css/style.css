@@ -204,3 +204,54 @@ p {
 #blue {
     background-color: #89CFF0;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .features {
+        height: auto;
+    }
+
+    .features #content-container-left {
+        width: 100%;
+        clear: both;
+    }
+    
+    .text-container-left {
+        position: relative;
+        max-width: 100%;
+        top: inherit;
+        left: inherit;
+        padding: 20px;
+    }
+
+    .features #media-container-right {
+        float:none;
+        width: 100%;
+    }
+
+    .features #media-container-right img {
+        width: 100%;
+    }
+
+    .features #content-container-right {
+        width: 100%;
+        clear: both;
+    }
+    
+    .text-container-right {
+        position: relative;
+        max-width: 100%;
+        top: inherit;
+        right: inherit;
+        padding: 20px;
+    }
+
+    .features #media-container-left {
+        float:none;
+        width: 100%;
+    }
+
+    .features #media-container-left img {
+        width: 100%;
+    }
+}
