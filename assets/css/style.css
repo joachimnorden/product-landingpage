@@ -85,6 +85,11 @@ p {
   .topnav .cta {
       background-color: #00ace7;
   }
+
+ .logo {
+     text-align: center;
+     letter-spacing: 4px;
+ } 
   
 
 img {
