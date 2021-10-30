@@ -31,6 +31,8 @@ h2 {
     font-weight: 300;
     font-size: 350%;
     letter-spacing: -0.5px;
+    line-height: 90%;
+    margin-bottom: 20px;
 }
 
 p {
@@ -52,7 +54,9 @@ p {
       display: inline-block;
       letter-spacing: 6px;
       margin-left: 20px;
+      margin-top: 10px;
       padding: 10px;
+      margin-bottom: 0px;
     }
     
 .top-nav-desktop a {
@@ -150,7 +154,7 @@ img {
     font-weight: 300;
     color: #fff !important;
     text-align: center;
-    background-color: green;
+    background-color: #04AA6D;
     border: 2px transparent solid;
 }
     
@@ -348,7 +352,7 @@ img {
 .table-container {
     margin-top: 20px;
     width: 70%;
-    margin-left: 10%;
+    margin: 0 auto;
 }
 
 .spec_table {
@@ -398,7 +402,7 @@ img {
 }
 
 footer {
-    height: 150px;
+    background-color: #AB6C82;
 }
 
 .social-networks {
@@ -414,7 +418,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #fff;
 }
 
 .form-section {
@@ -455,6 +459,8 @@ footer {
     
     .top-nav-desktop h2 {
         font-size: 30px;
+        margin-top: 20px;
+        padding: 0;
       }
     
     .top-nav-desktop a {
@@ -474,6 +480,10 @@ footer {
         margin-top: 40px;
     }
 
+    .features-row {
+        height: auto;
+    }
+
     .three-images {
         height: 25vh;
     }
@@ -487,6 +497,18 @@ footer {
         height: 100px;
         line-height: 276px;
         margin: 0 10px;
+    }
+
+    .table-container {
+        width: 80%;
+    }
+
+    .spec_th {
+        width: 30%;
+    }
+
+    .spec-list li {
+        width: 42%;
     }
 }
 
@@ -513,6 +535,8 @@ footer {
     .logo {
         font-size: 30px;
         padding: 0;
+        margin-top: 10px;
+        margin-bottom: 5px;
      } 
 
     .hero {
