@@ -324,9 +324,25 @@ footer {
         font-size: 200%;
     }
 
+    #hero {
+        height: 755px;
+        background: url('../images/product-page-hero-mobile-525x800.jpg') no-repeat;
+        background-size: contain;
+        margin-top: 48px;
+    }
+
     #hero .content {
-        max-width: 75%;
-        margin-left: 10%;
+        max-width: 100%;
+        margin-left: 0%;
+        color: #fff;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+        padding: 10%;
+        margin-top: -20px;
+        margin-bottom: -30px;
+    }
+
+    .text-container-left {
+        justify-content: flex-end;
     }
 
 
@@ -341,6 +357,10 @@ footer {
         left: 0;
         transform: translate(0, 0);
         margin-top: 40px;
+    }
+
+    #mobile-margin-top {
+        margin-top: 80px;
     }
 
     #table-container {
