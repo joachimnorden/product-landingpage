@@ -157,6 +157,12 @@ img {
 .media-content-right {
     float: right;
     width: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    -ms-transform: translate(-10%, -50%);
+    transform: translate(10%, -50%);
 }
 
 .text-content-right {
@@ -173,16 +179,22 @@ img {
 .media-content-left {
     float: left;
     width: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    -ms-transform: translate(-10%, -50%);
+    transform: translate(-10%, -50%);
 }
 
 .features-content {
     position: relative;
-    max-width: 75%;
+    max-width: 70%;
     margin-left: 10%;
 }
 
 .three-images {
-    height: 40vh;
+    height: auto;
     width: 100%;
     overflow: hidden;
 }
@@ -195,10 +207,9 @@ img {
     display: block;
 }
 
-#color-container {
-    background-color: #dcdcdc;
+.color-container {
     padding: 40px;
-    height: 40vh;
+    height: auto;
 }
 
 #color-circle-content {
@@ -216,28 +227,38 @@ img {
     margin-top: 50px;
 }
 
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 400px;
+}
+
 .color-circle  {
     width: 150px;
     height: 150px;
     border: 2px #cccccc solid;
     border-radius: 50%;
     display: inline-block;
+    line-height: 360px;
+    margin: 0 20px;
+    text-align: center;
 }
 
-#black {
-    background-color: #000;
+#green {
+    background-color: #48502b;
 }
 
 #white {
     background-color: #fff;
 }
 
-#gold {
-    background-color: #FFD700;
+#yellow {
+    background-color: #ffb308;
 }
 
 #blue {
-    background-color: #89CFF0;
+    background-color: #3273ad;
 }
 
 #table-container {
@@ -363,9 +384,21 @@ footer {
         margin-top: 80px;
     }
 
-    #color-container {
-        padding: 0px;
-        height: auto;
+    .three-images img {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        float: left;
+        display: block;
+    }
+
+    .three-images img:last-child {
+        width: 100%;
+    }
+
+    .color-container {
+        padding: 0 20px;
+        margin-top: 40px;
     }
 
     #color-circle-container {
@@ -379,7 +412,8 @@ footer {
     .color-circle  {
         width: 100px;
         height: 100px;
-        margin: 0 20px;
+        margin: 0 20px 50px;
+        line-height: 240px;
     }
 
     #table-container {
