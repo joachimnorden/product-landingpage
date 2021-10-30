@@ -37,23 +37,57 @@ p {
     margin-bottom: 20px;
 }
 
-/* Style the navigation menu */
-.topnav {
+.top-nav-desktop {
+    overflow: hidden;
+    background-color: #333;
+    direction: rtl; 
+  }
+  
+.top-nav-desktop a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.top-nav-desktop a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.top-nav-desktop a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.top-nav-desktop ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+
+.top-nav-desktop li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.top-nav-burger {
     overflow: hidden;
     background-color: #333;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 999;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
     display: none;
   }
   
-  /* Style navigation menu links */
-  .topnav a {
+  .top-nav-burger #topNavLinks {
+    display: none;
+  }
+  
+  .top-nav-burger a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
@@ -61,8 +95,7 @@ p {
     display: block;
   }
   
-  /* Style the hamburger menu */
-  .topnav a.icon {
+  .top-nav-burger a.icon {
     background: black;
     display: block;
     position: absolute;
@@ -70,19 +103,17 @@ p {
     top: 0;
   }
   
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
+  .top-nav-burger a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  /* Style the active link (or home/logo) */
   .active {
     background-color: #04AA6D;
     color: white;
   }
 
-  .topnav .cta {
+  .top-nav-burger .cta {
       background-color: #00ace7;
   }
 
@@ -345,7 +376,7 @@ footer {
     height: 900px;
 }
 
-.signup-form {
+.forms-pre-order {
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -379,6 +410,14 @@ footer {
     
     h2 {
         font-size: 200%;
+    }
+
+    .top-nav-desktop {
+        display: none;
+    }
+
+    .top-nav-burger {
+        display: block;
     }
 
     #hero {

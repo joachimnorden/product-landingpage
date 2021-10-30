@@ -10,31 +10,38 @@
 </head>
 <body>
   <header>
-    <div class="topnav">
-      <a href="#home" class="active">
-        <h2 class="logo">Headfone</h2>
-      </a>
-      <div id="myLinks">
+    <div class="top-nav-burger">
+      <div class="active">
+        <h2 class="logo"><a href="#">Headfone</a></h2>
+      <div id="topNavLinks">
         <a href="#features-link">Features</a>
         <a href="#colors">Colors</a>
         <a href="#tech-spec">Technical info</a>
         <a href="/pre-order.html" class="cta">Pre-order now ></a>
       </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="javascript:void(0);" class="icon" onclick="burgermenuFunction()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
+    </div>
     <script>
-      function myFunction() {
-      var x = document.getElementById("myLinks");
+      function burgermenuFunction() {
+      var x = document.getElementById("topNavLinks");
       if (x.style.display === "block") {
       x.style.display = "none";
       } else {
       x.style.display = "block";
       }
     }
-
     </script>
+    <div class="top-nav-desktop">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
   </header>
   <section>
     <div id="hero" class="text-container-left">
