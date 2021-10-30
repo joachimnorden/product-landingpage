@@ -36,20 +36,28 @@
 
     </script>
   </header>
-  <section>
-    <div id="hero" class="text-container-left">
-        <div class="content">
-          <h1>
-            An experience
-            <br>
-            For a generation
-          </h1>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          </p>
-          <a href="#" class="button">Pre-order now</a>
+  <section class="form-section">
+    <div id="hero">
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Get them before everyone else</h2>
+            <p>Here you can pre-order Headfones and they will be shipped to you as soon as possible</p>
+            <label for="fname">First Name</label>
+            <input id="fname" class="text-input" type="text" name="first_name" required />
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input" type="text"  name="last_name" required />
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" type="email" name="email_address" required/>
+            <input id="green" type="radio" name ="green-color" value="green" required/>
+            <label for="green">Green</label>
+            <input id="white" type="radio" name="white-color" value="white"/>
+            <label for="white">White</label>
+            <input id="yellow" type="radio" name="yellow-color" value="yellow"/>
+            <label for="yellow">Yellow</label>
+            <input id="blue" type="radio" name="blue-color" value="blue"/>
+            <label for="blue">Blue</label>
+            <input class="button" type="submit" value="Pre-order!"/>       
+        </form>
+
         </div>
     </div>
   </section>
