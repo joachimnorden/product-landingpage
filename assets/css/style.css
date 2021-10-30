@@ -363,6 +363,25 @@ footer {
         margin-top: 80px;
     }
 
+    #color-container {
+        padding: 0px;
+        height: auto;
+    }
+
+    #color-circle-container {
+        max-width: 100%;
+    }
+
+    #color-circle-content {
+        max-width: 100%;
+    }
+
+    .color-circle  {
+        width: 100px;
+        height: 100px;
+        margin: 0 20px;
+    }
+
     #table-container {
         width: 100%;
         margin-left: 20px;
