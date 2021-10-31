@@ -60,13 +60,13 @@ This is the main marketing website for a made-up headphone. It is designed to be
 *   ### Wireframes
 
 
-    -   Landing page Desktop Wireframe - [View](https://github.com/)
+    -   Landing page Desktop Wireframe - [View](https://github.com/joachimnorden/product-landingpage/blob/main/Product%20landing%20page.png)
 
-    -   Landing page Mobile Wireframe - [View](https://github.com/)
+    -   Landing page Mobile Wireframe - [View](https://github.com/joachimnorden/product-landingpage/blob/main/Product%20landing%20page-mobile.png)
 
-    -   Form Page Desktop Wireframe - [View](https://github.com/)
+    -   Form Page Desktop Wireframe - [View](https://github.com/joachimnorden/product-landingpage/blob/main/Form-desktop.png)
 
-    -   Form Page Mobile Wireframe - [View](https://github.com/)
+    -   Form Page Mobile Wireframe - [View](https://github.com/joachimnorden/product-landingpage/blob/main/Form-mobile.png)
 
 
 ## Features
@@ -122,9 +122,18 @@ This is the main marketing website for a made-up headphone. It is designed to be
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   HTML
 
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+        - No errors were returned when passing through the official W3C validator
+
+-   CSS
+
+        - No errors were returned when passing through the official W3C validator
+
+- Accessibility
+
+        - I confirmed thet the colors and fonts choses are easy to read and accessible by running it through lighthouse in devtools.
+
 
 
 ### Testing User Stories from User Experience (UX) Section
