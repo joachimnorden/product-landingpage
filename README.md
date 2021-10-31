@@ -7,7 +7,7 @@
 This is the main marketing website for a made-up headphone. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers or retailers.
 
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="https://raw.githubusercontent.com/joachimnorden/product-landingpage/main/responsive-image-product-page.PNG"></h2>
 
 
 ## User Experience (UX)
@@ -124,18 +124,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   HTML
 
-        - No errors were returned when passing through the official W3C validator
+     - No errors were returned when passing through the official W3C validator
 
 -   CSS
 
-        - No errors were returned when passing through the official W3C validator
+     - No errors were returned when passing through the official W3C validator
 
 - Accessibility
 
-        - I confirmed thet the colors and fonts choses are easy to read and accessible by running it through lighthouse in devtools.
+    - I confirmed thet the colors and fonts choses are easy to read and accessible by running it through lighthouse in devtools.
 
-        ![Lightouse-landning-page](lighthouse-result-landing-page.png)
-        ![Lightouse-form-page](lighthouse-result-form-page.png)
+<h2 align="center"><img src="https://raw.githubusercontent.com/joachimnorden/product-landingpage/main/lighthouse-result-landing-page.PNG"></h2>
+<h2 align="center"><img src="https://raw.githubusercontent.com/joachimnorden/product-landingpage/main/lighthouse-result-form-page.PNG"></h2>
 
 
 
