@@ -223,6 +223,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Hero content as above fold on Internet Explorer
 
+- After form submission you're redirected to a Code Institute Thank you page.
 
 ## Deployment
 
