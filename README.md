@@ -134,6 +134,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         - I confirmed thet the colors and fonts choses are easy to read and accessible by running it through lighthouse in devtools.
 
+        ![Lightouse-landning-page](lighthouse-result-landing-page.png)
+        ![Lightouse-form-page](lighthouse-result-form-page.png)
+
 
 
 ### Testing User Stories from User Experience (UX) Section
