@@ -9,34 +9,16 @@
 </head>
 <body>
   <header>
-    <div class="top-nav-burger">
-      <a href="#home" class="active">
-        <h2 class="logo">Headfone</h2>
-      </a>
-      <div id="myLinks">
-        <a href="#features-link">Features</a>
-        <a href="#colors">Colors</a>
-        <a href="#tech-spec">Technical info</a>
-        <a href="#" class="cta">Pre-order now ></a>
-      </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
+    <div class="top-nav-form-page">
+      <h2>Headfone</h2>
+      <ul>
+        <li><a href="index.html">< Take me back</a></li>
+      </ul>
     </div>
-    <script>
-      function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-      x.style.display = "none";
-      } else {
-      x.style.display = "block";
-      }
-    }
-    </script>
-    
   </header>
   <section class="form-section">
-    <div id="hero">
+    <div class="form-page-hero text-container-left">
+      <div class="content">
         <form class="forms-pre-order" method="POST" action="https://formdump.codeinstitute.net/">
             <h2>Get them before everyone else</h2>
             <p>Here you can pre-order Headfones and they will be shipped to you as soon as possible</p>
@@ -46,21 +28,31 @@
             <input id="lname" class="text-input" type="text"  name="last_name" required />
             <label for="email">Email Address</label>
             <input id="email" class="text-input" type="email" name="email_address" required/>
-            <input id="green" type="radio" name ="green-color" value="green" required/>
-            <label for="green">Green</label>
-            <input id="white" type="radio" name="white-color" value="white"/>
-            <label for="white">White</label>
-            <input id="yellow" type="radio" name="yellow-color" value="yellow"/>
-            <label for="yellow">Yellow</label>
-            <input id="blue" type="radio" name="blue-color" value="blue"/>
-            <label for="blue">Blue</label>
+            <div>
+              <input id="green" type="radio" name ="color-select" value="green" required/>
+              <label for="green">Green</label>
+            </div>
+            <div>
+              <input id="white" type="radio" name="color-select" value="white"/>
+              <label for="white">White</label>
+            </div>
+            <div>
+              <input id="yellow" type="radio" name="color-select" value="yellow"/>
+              <label for="yellow">Yellow</label>
+            </div> 
+            <div>
+              <input id="blue" type="radio" name="color-select" value="blue"/>
+              <label for="blue">Blue</label>
+            </div> 
+            <p class="form-page-hero-price">1,499 sek</p>
             <input class="button" type="submit" value="Pre-order!"/>       
         </form>
-
+      </div>
+    </div>
         </div>
     </div>
   </section>
-  <footer>
+  <footer class="form-footer">
     <ul class="social-networks">
       <li>
           <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>

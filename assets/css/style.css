@@ -39,7 +39,7 @@ p {
     margin-bottom: 20px;
 }
 
-.top-nav-desktop {
+.top-nav-desktop, .top-nav-form-page {
     width: 100vw;
     overflow: hidden;
     background-color: #333;
@@ -88,6 +88,48 @@ p {
 .top-nav-desktop li {
     list-style-type: none;
     display: inline-block;
+}
+
+.top-nav-form-page h2 {
+    font-size: 36px;
+    color: #fff;
+    display: inline-block;
+    letter-spacing: 6px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
+  
+.top-nav-form-page a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top-nav-form-page a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.top-nav-form-page a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.top-nav-form-page ul {
+  list-style-type: none;
+  display: flex;
+  float: right;
+  line-height: 40px;
+}
+
+.top-nav-form-page li {
+  list-style-type: none;
+  display: inline-block;
 }
 
 .top-nav-burger {
@@ -253,6 +295,10 @@ img {
     margin-left: 10%;
 }
 
+.features-content ul {
+    margin-left: 20px;
+}
+
 .three-images {
     height: 50vh;
     width: 100%;
@@ -303,7 +349,7 @@ img {
 .color-circle-content {
     margin-left: auto;
     margin-right: auto;
-    max-width: 50%;
+    max-width: 35%;
     text-align: center;
 }
 
@@ -421,20 +467,37 @@ footer {
     color: #fff;
 }
 
+.form-page-hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/form-page-hero-2000x1333.jpg') no-repeat;
+    background-size: cover;
+    margin-top: 68px;
+}
+
+.form-page-hero .content {
+    position: relative;
+    max-width: 35%;
+    margin-left: 10%;
+}
+
+.form-page-hero-price {
+    font-size: 26px;
+    margin-top: 20px;
+}
+
 .form-section {
     clear: left;
     background-size: cover;
     background-position: center;
-    height: 900px;
 }
 
 .forms-pre-order {
-    margin: 150px 10% 0 0;
+    margin: 0 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
-    position: absolute;
-    left: 10%;
     padding: 30px;
 }
 
@@ -463,11 +526,17 @@ footer {
         padding: 0;
       }
     
+    .top-nav-formpage h2 {
+        font-size: 30px;
+        margin-top: 20px;
+        padding: 0;
+      }
+
     .top-nav-desktop a {
         padding: 10px 7px;
       }
 
-      .hero .content {
+    .hero .content {
         max-width: 45%;
     }
 
@@ -510,6 +579,10 @@ footer {
     .spec-list li {
         width: 42%;
     }
+
+    .form-page-hero .content {
+        max-width: 75%;
+    }
 }
 
 
@@ -532,6 +605,12 @@ footer {
         display: block;
     }
 
+    .top-nav-form-page h2 {
+        font-size: 30px;
+        margin-top: 20px;
+        padding: 0;
+      }
+
     .logo {
         font-size: 30px;
         padding: 0;
@@ -553,6 +632,18 @@ footer {
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
         padding: 10%;
         margin-top: -20px;
+    }
+
+    .form-page-hero {
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .form-page-hero .content {
+        max-width: 100%;
+        height: 100vh;
+        margin-left: 0%;
+        margin-bottom: -267px;
     }
 
     .text-container-left {
@@ -619,5 +710,15 @@ footer {
         display: inline-block;
         width: 42%;
         margin-top: 25px;
+    }
+    
+    .forms-pre-order {
+        margin: 0;  
+        max-width: 100%; 
+        background-color: rgba(60, 60, 60, 0.8);
+    }
+
+    .form-footer {
+        margin-top: 140%;
     }
 }
