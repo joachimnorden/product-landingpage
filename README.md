@@ -1,7 +1,7 @@
 <h1 align="center">Headfone product Website</h1>
 
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://joachimnorden.github.io/product-landingpage/)
 
 
 This is the main marketing website for a made-up headphone. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers or retailers.
@@ -44,7 +44,7 @@ This is the main marketing website for a made-up headphone. It is designed to be
 
     -   #### Colour Scheme
 
-        -   The two main colours used are Code Insititue red, and white.
+        -   The two main colours used are Black and pink. With a green CTA color.
 
     -   #### Typography
 
@@ -219,6 +219,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   The mobile footer on form page have a large white gap above it.
 
+- Submit button miss some styling on iPhone on form page.
+
+- Hero content as above fold on Internet Explorer
+
 
 ## Deployment
 
@@ -311,6 +315,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   The navigation bar came for the follow post [W3 school post](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
 
+-   The footer bar was inspired by Code Instutite Love Running Project.
+
 
 
 ### Content
@@ -319,7 +325,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   Inspiration for table data was found [here](https://mynewmicrophone.com/full-list-headphone-earphone-specifications-w-examples/)
 
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 
 ### Media
