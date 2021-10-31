@@ -145,6 +145,7 @@ p {
     padding: 5px 16px;
     text-decoration: none;
     display: block;
+    line-height: 30px;
   }
   
   .top-nav-burger a.icon {
